@@ -1,0 +1,19 @@
+/* DOCUMENTO CSS*/
+
+img {max-width: 200px;
+        max-height: 200px;
+        align-items: flex-start;}
+
+h1, h2, h3, body, p, ul {text-align: center;}
+body {text-align: center;
+    background-color: rgb(196, 133, 233);}
+.container {display: flex;
+            /*flex-direction: row;
+            flex-wrap: wrap;*/
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 15px;
+            margin: 50px auto;
+            text-align: center;
+            background-color: rgb(143, 214, 115);}

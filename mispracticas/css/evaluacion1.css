@@ -1,0 +1,13 @@
+/*DOCUMENTO CSS*/
+
+
+h1, h2, p, body { text-align: center;
+      background-color: black; }
+
+h1, h2, p { color: white; }
+
+ul { text-align: center;
+            color: white; }
+
+li { text-align: center;
+        color: white; }

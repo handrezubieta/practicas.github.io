@@ -1,0 +1,37 @@
+/* DOCUMENTO CSS*/
+
+* { margin: 0;
+    padding: 0; }
+
+header, nav, footer, div, article, aside, section { box-sizing: border-box;}
+
+.container {display: flex;
+            flex-direction: column;
+            width: 100%;
+            min-height: 450px;
+            padding: 15px;
+            margin: 50px auto;
+            background-color: purple;}
+
+
+.item {width: 100%;
+       min-height: 150px;
+       text-align: center;
+       background: orange;
+        margin: 15px 0px;
+       }
+    @media only screen and (min-width: 600px ) {
+        .container {background: red;}
+        .item {background: white; }
+    }
+
+    @media only screen and (min-width: 992px ) {
+        .container {background: yellow;
+                    justify-content: space-between;
+                    flex-direction: row;}
+        .item {background: green;
+        text-align: left;
+        color: white;
+        font-size: 2em;
+        width: 45%;}
+    }

@@ -1,0 +1,43 @@
+/* DOCUMENTO CSS */
+
+* {margin:0;
+    padding: 0,}
+
+div, header, aside, nav, main, article, section, footer { box-sizing: border-box;
+                                                            display: block;}
+
+.logo {  }
+
+.logo img { width: 100%;
+            height: auto; }
+
+.navegador { background-color: rgb(204, 170, 228);}
+
+.accion {  }
+
+.item1 { border: 1px black solid;
+        border-radius: 150px;        
+        padding: 50px; 
+        background: rgb(155, 174, 247);
+        box-shadow:rgb(204, 170, 228);}
+
+h2 {  }
+
+.accion2 {  padding: 130px 90px;
+            min-height: 450px;  
+            background-image: url(../img/agua1.jpeg); 
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 320px auto;}
+
+.contenedor { background-image: url(../img/agua1.jpeg); 
+            background-repeat: no-repeat;
+            background-position: center center;}
+
+
+.item2 {  background: rgb(141, 193, 141);
+            min-height: 180px;
+            background-color: rgb(230, 233, 157);}
+
+img { width: 200px;
+        height: 200px;}

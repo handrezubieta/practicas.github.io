@@ -1,0 +1,43 @@
+/*DOCUMENTO CSS*/
+
+*{ margin: 0px;
+    padding: 0px; }
+
+    body   {font-family: 'Abel', sans-serif;}
+    .cabecera { display: block;
+                width: 100%;
+                min-height:80px;
+                background: #f9e6c4;}
+
+    h4 { text-align: center;
+            padding-top: 20px;
+            font-size: 3em;
+            text-transform: uppercase;
+        }
+        #principal { display:block;
+                        width: 500px;
+                        min-height: 1px;
+                        margin: 30px auto;}
+
+            h1, h2 { text-align: center; }
+
+            .contenedor { display:flex;
+                            flex-direction: row;
+                            width: 100%; 
+                            margin-bottom: 8px;
+                            background-color: purple;
+                            padding: 0px 15px;}
+
+            .item { width: 164px; 
+                    background-color: #b9e6d7;
+                    height: 130px; 
+                    margin: 0px 1%;}
+
+            .food1  { background-image: url(../img/food1.jpeg);}
+            .food2  { background-image: url(../img/food2.jpeg);}
+            .food3  { background-image: url(../img/food3.jpeg);}
+            .food4  { background-image: url(../img/food4.jpeg);}
+            .food5  { background-image: url(../img/food5.jpeg);
+                        width: 330px;}
+
+
